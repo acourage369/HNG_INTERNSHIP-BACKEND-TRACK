@@ -11,7 +11,7 @@ app.get('/slack_info', (req, res) => {
     const currentUTCTime = moment().tz('UTC');
     const currentDay = new Date().toLocaleDateString('en-US', {weekday: 'long'});
     // Getting github url
-    const github_file_url = 'https://github.com/acourage369/HNG_Internship-Backend-Track/blob/main/HNG_Stage1/index.js';
+    const github_file_url = 'https://github.com/acourage369/HNG_INTERNSHIP-BACKEND-TRACK/blob/main/HNG_Stage1/index.js';
     const github_repo_url = 'https://github.com/acourage369/HNG_INTERNSHIP-BACKEND-TRACK.git';
 
     const dataResponse = {
